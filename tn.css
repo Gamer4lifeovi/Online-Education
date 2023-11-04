@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Young+Serif&display=swap');
+
+:root{
+    --green:#0E77;
+    --white:#fff;
+    --light-white:#aaa;
+    --black:#3d3d3d;
+    --light-bg:#4b4b4b;
+}
+
+*{
+    font-family: 'Young Serif', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 2s linear;
+    text-transform: capitalize;
+}
+
+.home.row.content h3 span{
+    text-transform: capitalize;
+}
+
+::selection{
+    background-color: var(--white);
+    color: var(--white);
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+}
+
+::-webkit-scroll{
+    height: 5rem;
+    width: 1rem;
+}
